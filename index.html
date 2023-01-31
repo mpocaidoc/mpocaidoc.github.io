@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Currículum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+        <div class="container curriculum">
+            <h3 class="navbar-brand text-center">CURRICULUM</h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+            <h3 class="col-xs-12 text-center" id="nombre_apellido"> <hr></h3>
+            <div class="text-center imagen-perfil">
+                <div class="img-fluid rounded" id="imagen_perfil">
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container-sm contenido-dinamico text-center">
+
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Localidad
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong><span id="localidad"></span></strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Edad
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong><span id="edad"></span></strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Email
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong><span id="email"></span></strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Celular
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          <strong><span id="cel"></span></strong>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+        </div>
+            <div class="row">
+
+            <blockquote class="block-border col-md-10 col-md-offset-1">
+
+                
+
+
+            </blockquote>
+            <div class="col-md-12"></div>
+            <div class="col-md-4  text-center">
+                <div>
+                    <i class="circle fa fa-briefcase fa-2x "></i>
+                </div>
+                <p>
+                <strong>Habilidades para negocios</strong><br>
+                    Analisis, propuestas, documentación<br>
+                    planificación, formación, coaching<br>
+                    estimaciones, seguimiento
+                </p>                
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <i class=" fa fa-floppy-o fa-2x circle"></i>
+                </div>
+                    <p>
+                <strong>Software & Frameworks</strong><br>
+                    Spring, Angular, Eclipse<br>
+                    Tomcat, Bootstrap, jQuery<br>
+            </p> 
+
+            
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <i class="fa fa-comment fa-2x  circle"></i>
+                </div>
+
+            <p>
+                <strong>idiomas</strong><br>
+            Ingles (B2)<br>
+            Francés (B1) <br>
+            </p>
+
+            </div>
+            </div>
+            </div>
+
+
+        </div> 
+
+    </main>
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
